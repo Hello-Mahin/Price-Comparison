@@ -4,7 +4,7 @@ import streamlit as st
 import matplotlib.pyplot as plt
 import pandas as pd
 
-api_key_val= st.secrets["api_key"]
+api_key_val= st.secrets["api_key_val"]
 #Function to compare the product prices
 def compare(prd_name):
     client = serpapi.Client(api_key_val)
