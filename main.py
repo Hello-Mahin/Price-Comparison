@@ -1,7 +1,8 @@
-import pandas as pd
+
 import serpapi
 import streamlit as st
 import matplotlib.pyplot as plt
+import pandas as pd
 
 api_key_val= st.secrets["api_key"]
 #Function to compare the product prices
